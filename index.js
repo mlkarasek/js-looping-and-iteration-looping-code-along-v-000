@@ -4,3 +4,10 @@ for (let i = 0; i < arr.length; i++) {
    }
    return arr;
  };
+
+ function tailsNeverFails(){
+     for (let i = 1; Math.random() >= 0.5; i++) {
+       var streak = `You got ${i} tails in a row!`;
+     }
+     return streak;
+   }
